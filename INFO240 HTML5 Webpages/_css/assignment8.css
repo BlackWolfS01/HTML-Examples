@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+.content-wrap{
+    width:800px;
+    margin:0 auto;
+}
+
+p{
+	font-weight:bold;
+	font-size:
+}
+
+img {
+    float:left;
+    padding-right:10px;
+	height: 500px;
+	width: 500px;
+}
+h1{
+	color:lightgrey;
+}
+.main{
+	color:white;
+}
+a:link{
+    text-decoration: none;
+    color:blue;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.main a:link{
+    color:white;
+}
+
+
+/*The code below is for creating a dropdown menu*/
+#menu li{
+    list-style: none;
+    float:left;
+    position: relative;
+}
+#menu *{
+    padding: 0;
+    margin: 0;
+}
+#menu li a{
+    text-decoration: none;
+    width:200px;
+    height: 50px;
+    display: inline-block;
+    background: darkgrey;
+    color: white;
+    text-align: center;
+    line-height: 50px;/*If the value of line-height matches the value of height, the text is auto centered*/
+    
+}
+#menu li a:hover{
+    background: blue;
+    text-decoration: underline;
+}
+
+#menu ul ul{
+    visibility: hidden;
+    position: absolute;
+}
+
+#menu ul li:hover ul{
+    visibility: visible;
+}
+#menu{
+    width:800px;
+    margin: 0 auto;
+}
+
+.footer{
+	color: white;
+	float:bottom;
+	position: absolute;
+}

@@ -1,0 +1,35 @@
+/*
+CSS Stylesheet for HTML Assignment 7
+Author(s):
+Matthew John Werenr
+Spectre Studios LLC
+*/
+
+body{
+	
+	background-color: aqua;
+}
+.content-wrap{
+
+	width: 800px;
+	margin: 0 auto;
+}
+
+.menu{
+	background-color: purple;
+	text-align: center;
+	display: inline-block;
+	padding-top: 100px;
+}
+
+a{
+	display: inline-block;
+	padding: 50px;
+	height: 10px;
+	float: left;
+}
+
+img{
+	float: left;
+	padding-right: 25px;
+}

@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@font-face{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+img{
+	width: 350;
+	height: 500;
+	float: center;
+}
+
+body{
+	display: inline;
+	background-color: 02051C;
+	color: white;
+	text-align: center;
+}
+
+p{
+	margin: 10px 10px;
+	padding: 15px 15px;
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+}
+
+.content-wrap{
+	
+}
+
+.header{
+	background-color: 181922;
+	font-weight: normal;
+	font-style: normal;
+	padding-top: 15px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+}
+.contactinfo{
+	background-color: gray;
+	font-weight: normal;
+	font-style: normal;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.navigation{
+	background-color: silver;
+	color: black;
+	font-style: heavy;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.summary{
+	background-color: 15182B;
+	font-weight: normal;
+	font-style: normal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.technicalsummary{
+	background-color: 222226;
+	font-weight: normal;
+	font-style: normal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.employment{
+	background-color: 080C23;
+	font-weight: normal;
+	font-style: normal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.education{
+	background-color: 171E4A;
+	font-weight: normal;
+	font-style: normal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.footer{
+	background-color: 1F2965;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	font-weight: bold;
+	font-style: normal;
+}

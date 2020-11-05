@@ -1,0 +1,116 @@
+/*This file is attached to reponsive.html*/
+#all{
+    width:80%;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: black;
+    border: 1px solid lightblue;
+}
+#header{
+    font-size: 1.5em;
+    text-align: center;
+	background-color:darkgrey;
+    border-bottom: 1px solid lightblue;
+    padding: 1.5em;
+}
+#side{
+    width:20%;
+    height: 550px;
+    background-color: darkgrey;
+    float:left;
+}
+#main{
+    width:60%;
+    height: 550px;
+    background-color: bisque;
+    float:left;
+}
+#right{
+    width:20%;
+    height:550px;
+    float:right;
+    background-color:azure;
+}
+#footer{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 1.2em;
+    clear:both;
+}
+
+
+@media only screen and (max-width: 750px) and (min-width:550px){
+    #header{
+        font-size: 1.25em;
+        padding: 1.25em;
+    }
+    #main{
+        width:80%;
+        float:right;
+    }
+    #right{
+        clear:both;
+        width:100%;
+        height:auto;
+    }
+    #footer{
+        padding:0.5em;
+    }
+}
+@media only screen and (max-width: 549px){
+    body{
+        margin:0;
+    }
+    #all{
+        width:100%;
+    }
+    #header{
+        font-size:1em;
+        padding: .1em;
+    }
+    #side{
+        width:100%;
+        height:auto;
+        float: none;
+    }
+    #main{
+        width:100%;
+        height:auto;
+        float: none;
+    }
+    #right{
+        width:100%;
+        height:auto;
+        float: none;
+    }
+    #footer{
+        width:100%;
+        height:auto;
+        float: none;
+        padding:.1em;
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

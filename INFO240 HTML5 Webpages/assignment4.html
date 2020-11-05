@@ -1,0 +1,66 @@
+<DOCTYPE html>
+<!-- Author Signature:
+Matthew John Werner
+Spectre.ZERO.ONE Studios LLC
+-->
+<html lang="en">
+	<head>
+		<title>Assignment 4: HTML Forms</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			background-color: black;
+		</style>
+	</head>
+	<body>
+		<div>
+			<header>
+				<h1>Spectre Studios LLC</h1>
+				<h2>Contract Request Form</h2>
+			</header>
+		</div>
+		<hr>
+		<section>
+			<form id="contractform" method="post" action>
+				<fieldset>
+					<legend>Contract Request Form</legend>
+					<label>Name</label>
+					<input type="text" name="name" id="name" required autofocus>
+					<br><br>
+					<label>Company Name</label>
+					<input type="text" name="company" id="company" required autofocus>
+					<br><br>
+					<fieldset>
+						<label>Phone Number</label>
+						<input type="tel" name="phone" id="phone">
+						<br><br>
+						<label>Contact Email Address</label>
+						<input type="email" multiple name="email" id="email" required maxlength="30">
+						<br>
+						</br>
+					</fieldset>
+					<label for="services" id="services">
+					<select name="services" id="services">
+						<optgroup label="Contracting">
+							<option value="design">Game Design</option>
+							<option value="code">Technical/Engine Programming</option>
+							<option value="art">Technical Art/Animations</option>
+							<option value="full">Full Project Development</option>
+						</optgroup>
+						<optgroup label="Consulting">
+							<option label="game">Game Development</option>
+							<option label="software">Software Development</option>
+							<option label="ar">Augmented Reality</option>
+							<option label="vr">Virtual Reality</option>
+							<option label="mixed">Mixed Reality</option>
+						</optgroup>
+					</select>
+					<input type="submit" value="Submit Form">
+					<input type="reset" value="Reset Form">
+					<input type="image" src="_images/submit.png" alt="submit" width="130">
+					
+				</fieldset>
+			</form>
+		</section>
+	</body>
+</html>

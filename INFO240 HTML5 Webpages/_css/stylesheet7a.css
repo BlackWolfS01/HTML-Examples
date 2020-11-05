@@ -1,0 +1,46 @@
+body{
+	background-color:darkblue;
+}
+
+.content-wrap{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.menu{
+	width: 50px;
+	float: left;
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 1em;
+	background-color: light-blue;
+}
+
+
+p{
+	color:white;
+}
+.main{
+	float:right;
+	padding:15px;
+}
+
+.footer {
+	float:down;
+}
+
+img{
+	float:center;
+	padding-right: 15px;
+	width: 400px;
+	height: 400px;
+}
+
+a:link{
+	text-decoration: none;
+	color: white;
+}
+.main a:link{
+	color: yellow;
+}*/
